@@ -21,7 +21,7 @@ public class Array_6_1 {
 
         String answerString = "";
 
-        for (int i = 0; i < testList.size(); i++) { //-1이 맞나?
+        for (int i = 0; i < testList.size(); i++) {
             if (isAnswer(testList.get(i))) {
                 answerString += testList.get(i) + " ";
             }
@@ -56,4 +56,9 @@ public class Array_6_1 {
 
 
 /*
+소수 : 소수는 1과 자기자신을 제외한 나머지 숫자들에 나눠떨어지지 않는 1 이상의 숫자다.
+toString() -> String.valueOf()
+toInt() -> Integer.parseInt()
+List 뒤집기 -> Collections.reverse()
+문자열 뒤집기 -> StringBuilder().reverse()
  */
