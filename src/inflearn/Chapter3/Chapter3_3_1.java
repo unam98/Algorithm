@@ -13,15 +13,12 @@ public class Chapter3_3_1 {
 
 
         for (int i = 0; i < salesList.size(); i++) {
-//            System.out.println("지금 진행되는 i 값은? " + i);
             for (int j = i; ; j++) {
                 salesSum += salesList.get(j);
-//                System.out.println("salesSum 값은? " + salesSum);
                 addCount++;
-                if (addCount.equals(K)) {
+                if (addCount == K) {
                     if (salesSum > maxSales) {
                         maxSales = salesSum;
-//                        System.out.println("maxSales 값은? " + maxSales);
                     }
                     salesSum = 0;
                     addCount = 0;
