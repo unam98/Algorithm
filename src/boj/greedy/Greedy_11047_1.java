@@ -1,4 +1,4 @@
-package boj.Greedy;
+package boj.greedy;
 
 import java.util.ArrayList;
 import java.util.List;
