@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Implement_1316 {
+public class Implement_1316_1 {
     public Integer solution(ArrayList<ArrayList<Character>> charListOutside) {
 
         Map<Character, Integer> map;
@@ -36,7 +36,7 @@ public class Implement_1316 {
     }
 
     public static void main(String[] args) {
-        Implement_1316 pr = new Implement_1316();
+        Implement_1316_1 pr = new Implement_1316_1();
 
         Scanner sc = new Scanner(System.in);
 

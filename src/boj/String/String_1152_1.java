@@ -2,7 +2,7 @@ package boj.String;
 
 import java.util.Scanner;
 
-public class String_1152 {
+public class String_1152_1 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
