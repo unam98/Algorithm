@@ -1,55 +1,3 @@
-//package practice;
-//
-//import java.util.*;
-//
-//public class Summary {
-//
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//
-//        int N = sc.nextInt();
-//        sc.nextLine(); // 개행 문자를 읽어내는 코드 추가
-//        String[] token = new String[N];
-//
-//        for (int i = 0; i < N; i++) {
-//            String input = sc.nextLine();
-//            StringTokenizer st = new StringTokenizer(input);
-//            token[i] = st.nextToken();
-//        }
-//
-//        for (String element : token) {
-//            System.out.println(element);
-//
-//            String test1 = "d";
-//            char[] tet22 = test1.toCharArray();
-//            char test2 = 'd';
-//
-//            Integer test3 = 1;
-//
-//            test3.toString();
-//
-//            Integer.parseInt(test1);
-//            Integer.parseInt(String.valueOf(test2));
-//            Character[] sample = {'1', '2', '3','4','5'};
-//            System.out.println(sample[1]);
-//            ArrayList<String> test = new ArrayList<>(List.of("hi"));
-//
-//            Collections.reverse(test);
-//
-//
-//            Arrays.sort(sample,Comparator.reverseOrder());
-//            Arrays.
-//            test.sort();
-//            Collections.sort(sample);
-//            test.indexOf(0);
-//
-//            Character.
-//            );
-//        }
-//
-//    }
-//}
-//
 /*
 
 - split() 결과를 변수에 저장
@@ -101,13 +49,16 @@ String reversedStr = sb.reverse().toString();
 해시맵 : HashMap<Integer,Integer> map = new HashMap<>();
 
 - 스택/큐/해시맵 메서드 숙지
-스택
+스택(Stack)
 push() / pop() / peek() / isEmpty() / size() / clear()
 
-큐
+큐(Queue)
 add() / offer() / remove() / poll() / peek() / isEmpty() / size() / clear()
 
-해시맵
+덱(Deque)
+offerFirst() / offerLast() / pollFirst() / pollLast() / peekFirst() / peekLast() / removeFirstOccurrence(Object o) / removeLastOccurrence(Object o)
+
+해시맵(HashMap)
 put() / get() / containsKey()
 
 - 배열(Array) 생성과 동시에 요소 할당
@@ -116,11 +67,14 @@ char[] sample = {'1','2','3','4','5'}
 - ArrayList 생성과 동시에 요소 할당
 ArrayList<String> sample = new ArrayList<>(List.of("test"));
 
+- 배열(Array)을 ArrayList의 요소로 할당
+ArrayList<String> sample = new ArrayList<>(Arrays.asList(array));
+
 - Integer -> char : (char) (Integer)
 - Integer -> String : toString()
-- char -> Integer : Integer.parseInt(String.valueOf(char))
+- char -> Integer : Character.getNumericValue()
 - String -> Integer : Integer.parseInt(String)
-- char -> String : String.valueOf(char)
+- char -> String : toString()
 
 - ArrayList 정렬 방법
 오름차순 : Collections.sort(arrayList);
